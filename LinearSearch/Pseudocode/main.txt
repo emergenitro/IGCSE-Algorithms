@@ -1,0 +1,11 @@
+// Imagine the array is ["hello", "zebra", "cat", "cow", "donkey"] and is called arr
+// The variable lengthOfArray stores the length of the array
+// Also, be sure to declare all variables (not done here)
+
+searchFor <- "cat"
+FOR I <- 0 TO lengthOfArray
+    IF arry[I] == searchFor
+        THEN
+            OUTPUT "Found at index ", I
+    ENDIF
+NEXT I
